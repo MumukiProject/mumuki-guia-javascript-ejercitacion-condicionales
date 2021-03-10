@@ -1,10 +1,9 @@
 > Definí una función `esParOImpar` que acepte como argumento un `numero` y retorne el string `par` si el `numero` es par, o el string `impar` si el `numero` es impar
-> 
-Tip: Investigá sobre el operador módulo `%`
+
 > 
 ```javascript
 esParOImpar(3)
-
+'impar'
 esParOImpar(10))
 'par'
 ```
