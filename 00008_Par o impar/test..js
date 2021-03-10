@@ -1,4 +1,9 @@
-it("Si hacemos puedeGraduarse(80, 50, true) debería retornar true", function() {
-let resultado = puedeGraduarse(80, 50, true)
-assert.equal(resultado, true,`puedeGraduarse(80, 50, true) deberia retornar true pero fue ${resultado}`);
+it("Si hacemos esParOImpar(3) debería retornar 'impar'", function() {
+let resultado = esParOImpar(3)
+assert.equal(resultado, 'impar',`esParOImpar(3) deberia retornar 'impar' pero fue ${resultado}`);
+})
+
+it("Si hacemos esParOImpar(10) debería retornar 'par'", function() {
+let resultado = esParOImpar(10)
+assert.equal(resultado, 'par',`esParOImpar(10) deberia retornar 'par' pero fue ${resultado}`);
 })

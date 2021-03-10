@@ -4,7 +4,7 @@ Tip: Investigá sobre el operador módulo `%`
 > 
 ```javascript
 esParOImpar(3)
-'impar'
+
 esParOImpar(10))
 'par'
 ```
