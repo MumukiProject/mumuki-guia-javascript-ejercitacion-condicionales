@@ -1,6 +1,6 @@
-it("Si hacemos puedeRenovarCarnet(true, true, true) debería retornar true", function() {
+it("Si hacemos puedeRenovarCarnet(true, true, true) debería retornar false", function() {
   let resultado = puedeRenovarCarnet(true, true, true)
-  assert.equal(resultado, true,`puedeRenovarCarnet(true, true, true) deberia retornar true pero fue ${resultado}`);
+  assert.equal(resultado, false,`puedeRenovarCarnet(true, true, true) deberia retornar false pero fue ${resultado}`);
 })
 
 it("Si hacemos puedeRenovarCarnet(true, true, false) debería retornar false", function() {
@@ -8,9 +8,9 @@ it("Si hacemos puedeRenovarCarnet(true, true, false) debería retornar false", f
   assert.equal(resultado, false,`puedeRenovarCarnet(true, true, false) deberia retornar false pero fue ${resultado}`);
 })
 
-it("Si hacemos puedeRenovarCarnet(true, false, true) debería retornar false", function() {
+it("Si hacemos puedeRenovarCarnet(true, false, true) debería retornar true", function() {
   let resultado = puedeRenovarCarnet(true, false, true)
-  assert.equal(resultado, false,`puedeRenovarCarnet(true, false, true) deberia retornar false pero fue ${resultado}`);
+  assert.equal(resultado, true,`puedeRenovarCarnet(true, false, true) deberia retornar true pero fue ${resultado}`);
 })
 
 it("Si hacemos puedeRenovarCarnet(true, false, false) debería retornar false", function() {
