@@ -3,7 +3,7 @@
 > 
 ```javascript
 ム puedeRenovarCarnet(true, true, true)
-false
+true
 ム puedeRenovarCarnet(true, true, false)
 false
 ム puedeRenovarCarnet(true, false, true)
