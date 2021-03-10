@@ -3,10 +3,10 @@
 ```javascript
 ム puedeAvanzar('verde')     
 true
-ム puedeAvanzar('amarillo'))
+ム puedeAvanzar('amarillo')
 false
-ム puedeAvanzar('rojo'))      
+ム puedeAvanzar('rojo')  
 false
-ム puedeAvanzar('lila'))
+ム puedeAvanzar('lila')
 'Error: color de semáforo inválido'
 ```
