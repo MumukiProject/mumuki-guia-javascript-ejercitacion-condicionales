@@ -12,3 +12,13 @@ it("Si hacemos jugarPiedraPapelTijera('tijera', 'papel') debería retornar ¡Gan
 let resultado = jugarPiedraPapelTijera('tijera', 'papel')
 assert.equal(resultado, '¡Ganó tijera!',`jugarPiedraPapelTijera('tijera', 'papel') deberia retornar '¡Ganó tijera!' pero fue ${resultado}`);
 })
+
+it("Si hacemos jugarPiedraPapelTijera('piedra', 'piedra') debería retornar ¡Empate!", function() {
+let resultado = jugarPiedraPapelTijera('piedra', 'piedra')
+assert.equal(resultado, '¡Empate!',`jugarPiedraPapelTijera('piedra', 'piedra') deberia retornar '¡Empate!' pero fue ${resultado}`);
+})
+
+it("Si hacemos jugarPiedraPapelTijera('papel', 'papel') debería retornar ¡Empate!", function() {
+let resultado = jugarPiedraPapelTijera('papel', 'papel')
+assert.equal(resultado, '¡Empate!',`jugarPiedraPapelTijera('papel', 'papel') deberia retornar '¡Empate!' pero fue ${resultado}`);
+})
