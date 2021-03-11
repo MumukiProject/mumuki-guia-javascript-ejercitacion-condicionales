@@ -1,5 +1,14 @@
-describe("Descripción del grupo", function() {
-  it("Descripción del ejemplo", function() {
-    assert(true)
-  })
+it("Si hacemos jugarPiedraPapelTijera('tijera', 'piedra') debería retornar ¡Ganó piedra!", function() {
+let resultado = jugarPiedraPapelTijera('tijera', 'piedra')
+assert.equal(resultado, '¡Ganó piedra!',`jugarPiedraPapelTijera('tijera', 'piedra') deberia retornar '¡Ganó piedra!' pero fue ${resultado}`);
+})
+
+it("Si hacemos jugarPiedraPapelTijera('papel', 'piedra') debería retornar ¡Ganó papel!", function() {
+let resultado = jugarPiedraPapelTijera('papel', 'piedra')
+assert.equal(resultado, '¡Ganó papel!',`jugarPiedraPapelTijera('papel', 'piedra') deberia retornar '¡Ganó papel!' pero fue ${resultado}`);
+})
+
+it("Si hacemos jugarPiedraPapelTijera('tijera', 'papel') debería retornar ¡Ganó tijera!", function() {
+let resultado = jugarPiedraPapelTijera('tijera', 'papel')
+assert.equal(resultado, '¡Ganó tijera!',`jugarPiedraPapelTijera('tijera', 'papel') deberia retornar '¡Ganó tijera!' pero fue ${resultado}`);
 })
