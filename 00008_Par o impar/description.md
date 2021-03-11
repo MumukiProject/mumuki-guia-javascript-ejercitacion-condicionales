@@ -4,6 +4,6 @@
 ```javascript
 esParOImpar(3)
 'impar'
-esParOImpar(10))
+esParOImpar(10)
 'par'
 ```
