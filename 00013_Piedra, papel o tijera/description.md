@@ -1,4 +1,4 @@
-> Definí una función `jugarPiedraPapelTijera` que tome como argumentos dos strings `a` y `b` que representen una jugada (`piedra`, `papel`, `tijera`) y dependiendo el devuelva un string con un mensaje avisando qué jugada ganó (o si hubo empate)
+> Definí una función `jugarPiedraPapelTijera` que tome como argumentos dos strings `a` y `b` que representen una jugada (`piedra`, `papel`, `tijera`) y retorne un string con un mensaje avisando qué jugada ganó (o si hubo empate)
 
 > 
 ```javascript
