@@ -3,6 +3,11 @@ let resultado = jugarPiedraPapelTijera('tijera', 'piedra')
 assert.equal(resultado, '¡Ganó piedra!',`jugarPiedraPapelTijera('tijera', 'piedra') deberia retornar '¡Ganó piedra!' pero fue ${resultado}`);
 })
 
+it("Si hacemos jugarPiedraPapelTijera('piedra', 'tijera') debería retornar ¡Ganó piedra!", function() {
+let resultado = jugarPiedraPapelTijera('piedra', 'tijera')
+assert.equal(resultado, '¡Ganó piedra!',`jugarPiedraPapelTijera('piedra', 'tijera') deberia retornar '¡Ganó piedra!' pero fue ${resultado}`);
+})
+
 it("Si hacemos jugarPiedraPapelTijera('papel', 'piedra') debería retornar ¡Ganó papel!", function() {
 let resultado = jugarPiedraPapelTijera('papel', 'piedra')
 assert.equal(resultado, '¡Ganó papel!',`jugarPiedraPapelTijera('papel', 'piedra') deberia retornar '¡Ganó papel!' pero fue ${resultado}`);
