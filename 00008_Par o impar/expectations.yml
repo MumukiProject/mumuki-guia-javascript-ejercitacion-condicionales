@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:esParOImpar(numero)
+  inspection: DeclaresFunction:esParOImpar
