@@ -5,7 +5,7 @@ assert.equal(resultado, '¡Hace mucho calor!',`obtenerSensacion(33) deberia reto
 
 it("Si hacemos obtenerSensacion(-3) debería retornar ¡Está helando!", function() {
 let resultado = obtenerSensacion(-3)
-assert.equal(resultado, '¡Está helado!',`obtenerSensacion(-3) deberia retornar '¡Está helado!' pero fue ${resultado}`);
+assert.equal(resultado, '¡Está helando!',`obtenerSensacion(-3) deberia retornar '¡Está helando!' pero fue ${resultado}`);
 })
 
 it("Si hacemos obtenerSensacion(15) debería retornar Está Lindo", function() {
