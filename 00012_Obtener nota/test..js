@@ -3,9 +3,9 @@ let resultado = obtenerNota(7)
 assert.equal(resultado, 'Bueno',`obtenerNota(7) deberia retornar 'Bueno' pero fue ${resultado}`);
 })
 
-it("Si hacemos obtenerNota(9.6) debería retornar Excelente", function() {
+it("Si hacemos obtenerNota(9.6) debería retornar Muy bueno", function() {
 let resultado = obtenerNota(9.6)
-assert.equal(resultado, 'Excelente',`obtenerNota(9.6) deberia retornar 'Excelente' pero fue ${resultado}`);
+assert.equal(resultado, 'Muy bueno',`obtenerNota(9.6) deberia retornar 'Muy bueno' pero fue ${resultado}`);
 })
 
 it("Si hacemos obtenerNota(12) debería retornar Puntaje invalido", function() {

@@ -13,7 +13,7 @@
 ムobtenerNota(7)
 "Bueno"
 ム obtenerNota(9.6)
-"Excelente"
+"Muy bueno"
 ム obtenerNota(12)
 "Puntaje inválido"
 ```
