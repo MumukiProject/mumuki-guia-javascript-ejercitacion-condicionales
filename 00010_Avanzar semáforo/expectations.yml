@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:avanzarSemaforo
+  inspection: Declares:avanzarSemaforo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:DoesTypeTest
