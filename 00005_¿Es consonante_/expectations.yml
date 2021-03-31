@@ -3,3 +3,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresFunction:esConsonante
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esConsonante
+  inspection: Calls:esVocal
