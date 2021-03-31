@@ -7,5 +7,4 @@ true
 false
 ム puedeAvanzar('rojo')  
 false
-
 ```
