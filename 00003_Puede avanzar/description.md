@@ -1,4 +1,4 @@
-> Definí una función `puedeAvanzar` que tome como argumento un string con el color del semáforo y devuelva `true` si puede avanzar o `false` si no. Si no se ingresa un color válido, debe devolver un string que diga: `Error: color de semáforo inválido`
+> Definí una función `puedeAvanzar` que tome por parámetro un string con un color del semáforo y nos diga si puede avanzar 
 >
 ```javascript
 ム puedeAvanzar('verde')     
