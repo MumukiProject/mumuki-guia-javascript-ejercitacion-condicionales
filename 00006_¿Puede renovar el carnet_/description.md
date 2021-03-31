@@ -1,4 +1,5 @@
-> Definí una función `puedeRenovarCarnet` que tome como argumentos tres booleanos, `pasoTests`, `tieneMultasImpagas` y `pagoImpuestos`, y devuelva `true` si una persona está habilitada para renovar su carnet de conducir o `false` si no. Una persona puede renovar su carnet si pasó los tests, no tiene multas impagas y pagó todos los impuestos
+> Definí una función `puedeRenovarCarnet` que reciba como argumentos tres booleanos, `pasoTests`, `tieneMultasImpagas` y `pagoImpuestos`, y nos indique si una persona está habilitada para renovar su carnet de conducir.
+Una persona puede renovar su carnet si pasó los tests, no tiene multas impagas y pagó todos los impuestos
 
 > 
 ```javascript

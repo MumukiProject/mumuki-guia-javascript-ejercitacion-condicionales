@@ -1,4 +1,4 @@
- > Definí una función `obtenerNota` que tome como argumento un número `puntaje` y devuelva un string dependiendo del `puntaje`, con las siguientes reglas:
+ > Definí una función `obtenerNota` que reciba como argumento un número `puntaje` y devuelva un string dependiendo del `puntaje`, con las siguientes reglas:
 >
 | Puntaje | Nota |
 | --- | --- |

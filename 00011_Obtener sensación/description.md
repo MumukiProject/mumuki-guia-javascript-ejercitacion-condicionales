@@ -1,4 +1,4 @@
-> Definí una función `obtenerSensacion` que tome como argumento un número `temperatura` y devuelva un string dependiendo de la `temperatura`, con las siguientes reglas:
+> Definí una función `obtenerSensacion` que tome por parámetro un número `temperatura` y devuelva un string dependiendo de la `temperatura`, con las siguientes reglas:
 >
 | Temperatura | Mensaje |
 | --- | --- |

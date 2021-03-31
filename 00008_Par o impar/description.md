@@ -1,4 +1,4 @@
-> Definí una función `esParOImpar` que acepte como argumento un `numero` y retorne el string `par` si el `numero` es par, o el string `impar` si el `numero` es impar
+> Definí una función `esParOImpar` que tome un `numero` y retorne el string `par` si el `numero` es par, o el string `impar` si el `numero` es impar
 
 > 
 ```javascript

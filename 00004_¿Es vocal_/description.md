@@ -1,4 +1,4 @@
-> Definí una función `esVocal` que tome como argumento un string `letra` y devuelva `true` si `letra` es una vocal o `false` si no lo es.
+> Definí una función `esVocal` que tome por parámetro un string `letra` y nos indique si `letra` es una vocal.
 >
 ```javascript
 ム esVocal('a')

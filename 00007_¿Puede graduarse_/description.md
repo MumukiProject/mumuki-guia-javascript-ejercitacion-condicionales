@@ -1,4 +1,5 @@
-> Crear una función `puedeGraduarse` que tome como argumentos dos números `asistencia` y `materiasAprobadas` y un booleano `tesisAprobada`, y devuelva `true` si una persona puede gruadarse o `false` si no. Una persona puede graduarse si tiene un 75% de asistencia o más, 50 materias aprobadas o más y la tesis aprobada.
+> Definí la función `puedeGraduarse` que tome por parámetros dos números `asistencia` y `materiasAprobadas` y un booleano `tesisAprobada`, y devuelva nos indique si una persona puede gruadarse.
+Una persona puede graduarse si tiene un 75% de asistencia o más, 50 materias aprobadas o más y la tesis aprobada.
 > 
 ```javascript
 ム puedeGraduarse(80, 50, true)
