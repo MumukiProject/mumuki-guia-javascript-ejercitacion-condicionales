@@ -1,1 +1,1 @@
-¿Y _si_... ejecitamos lo que aprendimos sobre condicionales? ¡_Entonces_ manos a la obra! :stuck_out_tongue_closed_eyes:
+¿Y _si_... ejercitamos lo que aprendimos sobre condicionales? ¡_Entonces_ manos a la obra! :stuck_out_tongue_closed_eyes:
