@@ -7,6 +7,5 @@ true
 false
 ム puedeAvanzar('rojo')  
 false
-ム puedeAvanzar('lila')
-'Error: color de semáforo inválido'
+
 ```
