@@ -1,0 +1,1 @@
+podés usar la función esVocal que  definiste anteriormente.
